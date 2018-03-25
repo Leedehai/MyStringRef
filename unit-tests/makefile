@@ -1,0 +1,2 @@
+ALL:
+	/usr/bin/g++-6  -g -Wall -pedantic -Wno-vla -O0 -std=c++14 -MMD -MF string-ref-test.d -I../include/ -isystem ../tools/third-party/googletest/include  adt/string-ref-test.cc ../src/adt/string-ref.cc -o string-ref-test -L. -lgtest -lpthread
