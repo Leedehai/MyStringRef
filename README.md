@@ -1,8 +1,8 @@
 # MyStringRef
 
-My play with C++17's `string_ref` proposal. Taken from a larger project of mine.
+My play with C++17's `string_ref` proposal, with own extensions like `edit_distance` (Levenshtein distance). Taken from a larger project of mine.
 
-Test:
+Test (with GoogleTest, already supplied)
 ```
 cd unit-tests
 make
